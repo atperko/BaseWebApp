@@ -24,5 +24,20 @@
 <!-- then bootstrap -->
 <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
+<!-- Now everything we'll need to use firebase -->
+<script src="https://www.gstatic.com/firebasejs/3.8.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBWyVfYF9fvZm9mh8QTKgOYpUu0Zd6ygQ8",
+    authDomain: "ap-db-24929.firebaseapp.com",
+    databaseURL: "https://ap-db-24929.firebaseio.com",
+    projectId: "ap-db-24929",
+    storageBucket: "ap-db-24929.appspot.com",
+    messagingSenderId: "553014668141"
+  };
+  firebase.initializeApp(config);
+</script>
+
 <!-- then our app's own js file -->
 <script src="/js/main.js"></script>
